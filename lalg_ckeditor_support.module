@@ -1,0 +1,12 @@
+<?php
+
+/*
+ * hook_field_widget_info_alter
+ *
+ * Widget modification to fix ckeditor on group contact details 
+ */
+function lalg_ckeditor_support_field_widget_info_alter(&$info) {
+  if (isset($info['text_textarea'])) {
+    $info['text_textarea']['field_types'][] = 'text';
+  }
+}
