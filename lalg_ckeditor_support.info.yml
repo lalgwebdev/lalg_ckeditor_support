@@ -2,5 +2,5 @@ type: module
 name: 'LALG CKEditor Support'
 description: 'CKEditor related fixes and additions.'
 package: 'Custom'
-core_version_requirement: ^9
-version: "1.0.0"
+core_version_requirement: ^9 || ^10
+version: "1.2.0"
